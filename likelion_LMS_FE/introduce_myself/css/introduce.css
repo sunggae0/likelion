@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-main-white: #f7d5b1;
+    --color-main-blue: #2c3950;
+}
+
+.nickname{
+    display: block;
+
+}
+
+.introduce{
+    font-size: 50px;
+    font-family: SBAggroL;
+    margin-bottom: 0px;
+    color: var(--color-main-blue);
+}
+
+.title{
+    font-size: 100px;
+    width: 740px;
+    font-family: SBAggroB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: var(--color-main-blue);
+    color: white;
+    margin-right: auto;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.subtitle{
+    font-size: 50px;
+    font-family: SBAggroL;
+    color: var(--color-main-blue);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img1{
+    display: block;
+}
+.img2{
+    display: block;
+}
+.face{
+    display: flex;
+}
+.face_img2{
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+
+}
+.face_img{
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 50px;
+}
+
+.info{
+    display: flex;
+}
+.img_explanation{
+    font-family: SBAggroB;
+    color: var(--color-main-blue);
+    font-size: 50px;
+    text-align: center;
+}
+.img_explanation2{
+    font-family: SBAggroB;
+    color: var(--color-main-blue);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.img_explanation2-1{
+    font-family: SBAggroL;
+    color: var(--color-main-blue);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.history{
+    margin-left: 200px;
+}
+.graduate{
+    font-family: SBAggroB;
+    color: var(--color-main-blue);
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.element{
+    font-family: SBAggroL;
+    color: var(--color-main-blue);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
