@@ -1,0 +1,93 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+
+.main_div{
+    display: block;
+    flex-direction: column;
+    margin-top: 172px;
+}
+
+.make_am_btn{
+    display: flex;
+    align-items: center;
+    width: 83px;
+    height: 9px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--color-orange-main);
+}
+
+.am_index_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+    height: 35px;
+}
+
+.book_img{
+    width: 35px;
+    height: 35px;
+}
+.am_index_title{
+    font-family: GmarketSans;
+    font-size: 18px;
+    margin-left: 11px;
+}
+
+.list{
+    display: block;
+}
+
+.am1_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 574px;
+    height: 91px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.am1_title{
+    font-family: "Noto Sans KR";
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+.am1_detail{
+    font-family: "Noto Sans KR";
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.am1_deadline{
+    font-family: "Noto Sans KR";
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--color-orange-main);
+    text-align: center;
+}
