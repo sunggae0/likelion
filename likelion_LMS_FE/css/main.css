@@ -17,6 +17,10 @@
 .main_div{
     display: block;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    margin-top: 172px;
+>>>>>>> 8037b10875ff1daeb2b9076f07b761c2b9f38b6b
 }
 
 .make_am_btn{
